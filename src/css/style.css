@@ -1,11 +1,51 @@
-@media screen and (width >= 320px) {
+@media screen and (width >=320px) {
 	#some-id {
-		color: red;
+		color: #E6F7F7;
 	}
 }
 
-@media screen and (width >= 500px) {
+@media screen and (width >=500px) {
 	#some-id {
-		color: red;
+		color: #E6F7F7;
 	}
+}
+
+.page-title {
+	font-family: 'kadwa';
+	color: #F6B552;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	font-kerning: 28;
+}
+
+.heading-2 {
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1;
+	font-family: 'Kadwa';
+}
+
+.heading-3 {
+	font-size: 21.89px;
+	font-weight: 700;
+	line-height: 1;
+	font-family: 'kulim park';
+	font-kerning: 3;
+}
+
+.all-body-copy {
+	font-family: 'kulim park';
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 500;
+	font-kerning: 3%];
+}
+
+.bolded-copy {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'kulim park';
+	line-height: 1;
 }
