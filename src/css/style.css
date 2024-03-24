@@ -1,3 +1,8 @@
+body {
+box-sizing: borderbox;
+background-color: #FFF3E1;
+}
+
 @media screen and (width >=320px) {
 	#some-id {
 		color: #E6F7F7;
@@ -9,43 +14,59 @@
 		color: #E6F7F7;
 	}
 }
+.greetings-from {
+	font-family: 'Yesteryear';
+	color: #432718;
+	font-size: 20;
+	text-transform: titlecase;
+
+}
 
 .page-title {
 	font-family: 'kadwa';
 	color: #F6B552;
-	font-size: 32px;
+	font-size: 42;
 	font-weight: 700;
 	line-height: 1;
 	text-transform: uppercase;
 	font-kerning: 28;
 }
 
+.main-description {
+	font-family: 'Kadwa';
+	font-size: 17;
+}
+
+.site-titles {
+	font-family: 'Yesteryear';
+	font-size: 22;
+	text-transform: titlecase;
+	font-weight: 700;
+	line-height: 1;
+	font-kerning: 3%;
+	color: #432718;
+}
+
 .heading-2 {
-	font-size: 32px;
+	font-size: 20;
 	font-weight: 500;
 	line-height: 1;
 	font-family: 'Kadwa';
+	color: #432718;
 }
 
-.heading-3 {
-	font-size: 21.89px;
-	font-weight: 700;
-	line-height: 1;
-	font-family: 'kulim park';
-	font-kerning: 3;
-}
-
-.all-body-copy {
-	font-family: 'kulim park';
-	font-size: 16px;
+.description {
+	font-family: 'kadwa';
+	font-size: 17px;
 	line-height: 1;
 	font-weight: 500;
-	font-kerning: 3%];
+	font-kerning: 3%;
+	color: #432718;
 }
 
-.bolded-copy {
-	font-size: 16px;
-	font-weight: 600;
-	font-family: 'kulim park';
-	line-height: 1;
+.tip-titles {
+	font-size: 18;
+	font-family: 'Kadwa';
+
+
 }
