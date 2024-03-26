@@ -24,8 +24,8 @@
 		<nav class="navigation">
 			<ul>
 				<li><a href="#sites">Sites</a></li>
-				<li><a href="#">Tips</a></li>
-				<li><a href="#">Culture</a></li>
+				<li><a href="#tips">Tips</a></li>
+				<li><a href="#culture">Culture</a></li>
 			</ul>
 		</nav>
 		<img class="poster-image" src="images/IMG_6760.jpg" alt="skyline of Sydney, Australia">
@@ -49,18 +49,18 @@
 		<section id="sites">
 			<h2 class="heading-2">Top Sites from Down Under</h2>
 			<ol class="sites">
-				<li><a href="https://greatbarrierreef.org/">
-						<h3 class="site-titles">Great Barrier Reef</h3>
+				<li><a  class="site-titles" href="https://greatbarrierreef.org/">
+						<h3>Great Barrier Reef</h3>
 					</a>
-					<img src="images/IMG_6586.jpg" alt="arial view of great barrier reef" width="100" height="100">
+					<img class="site-image" src="images/IMG_6586.jpg" alt="arial view of great barrier reef" width="100" height="100">
 					<p class="description">The world's largest coral reef system, offering unparalleled opportunities for
 						snorkeling, diving, and marine exploration amidst stunning coral formations and diverse marine
 						life.<!--ChatGPT: "top 5 attractions in sydney, australia and cairns, australia"--></p>
 				</li>
-				<li><a href="https://www.daintreerainforest.com/">
-						<h3 class="site-titles">Daintree Rainforest</h3>
+				<li><a  class="site-titles" href="https://www.daintreerainforest.com/">
+						<h3>Daintree Rainforest</h3>
 					</a>
-					<img src="images/IMG_5662.jpg" alt="vista from platform inside the daintree rainforest" width="100"
+					<img class="site-image" src="images/IMG_5662.jpg" alt="vista from platform inside the daintree rainforest" width="100"
 						height="100">
 					<p class="description">As one of the oldest rainforests on Earth, the Daintree Rainforest offers a
 						captivating blend of biodiversity and ancient landscapes. Visitors immerse themselves in its lush
@@ -68,85 +68,82 @@
 						river cruises, or zip-line
 						adventures.<!--ChatGPT: "top 5 attractions in sydney, australia and cairns, australia"--></p>
 				</li>
-				<li><a href="https://www.sydneyoperahouse.com/">
-						<h3 class="site-titles">Sydney Opera House</h3>
+				<li><a  class="site-titles" href="https://www.sydneyoperahouse.com/">
+						<h3>Sydney Opera House</h3>
 					</a>
-					<img src="images/IMG_6742.jpg" alt="outside of sydney opera house" width="100" height="100">
+					<img class="site-image" src="images/IMG_6742.jpg" alt="outside of sydney opera house" width="100" height="100">
 					<p class="description">An iconic architectural marvel and UNESCO World Heritage Site, offering guided
 						tours, world-class performances, and unparalleled views of Sydney
 						Harbour.<!--ChatGPT: "top 5 attractions in sydney, australia and cairns, australia"--></p>
 				</li>
-				<li><a href="https://www.bridgeclimb.com/">
-						<h3 class="site-titles">Sydney Harbor Bridge</h3>
+				<li><a  class="site-titles" href="https://www.bridgeclimb.com/">
+						<h3>Sydney Harbor Bridge</h3>
 					</a>
-					<img src="images/bridge.svg" alt="sydney harbor bridge" width="125" height="125">
+					<img class="site-image" src="images/bridge.svg" alt="sydney harbor bridge" width="125" height="125">
 					<p class="description">Affectionately known as the "Coathanger," this historic bridge offers visitors the
 						opportunity to climb to its summit for panoramic views of the city skyline and
 						harbour.<!--ChatGPT: "top 5 attractions in sydney, australia and cairns, australia"--></p>
 				</li>
-				<li><a href="https://taronga.org.au/sydney-zoo">
-						<h3 class="site-titles">Taronga Zoo</h3>
+				<li><a  class="site-titles" href="https://taronga.org.au/sydney-zoo">
+						<h3>Taronga Zoo</h3>
 					</a>
-					<object data="images/koala.svg" alt="koala at the Taronga Zoo" width="125 height=125"></object>
+					<img class="site-image" src="images/koala.svg" alt="koala at the Taronga Zoo">
 					<p class="description">Home to over 4,000 animals from around the world, including iconic Australian
 						wildlife such as kangaroos and koalas, as well as exotic species like elephants, giraffes, and
 						tigers.<!--ChatGPT: "top 5 attractions in sydney, australia and cairns, australia"--></p>
 				</li>
 			</ol>
 		</section>
-		<section>
+		<section id="tips">
 			<h2 class="heading-2">Local Lifelines</h2>
 			<!--slideshow container-->
-			<div class="carousel-container" data-ride="carousel">
-				<button class="carousel-button prev">&#8592;</button>
-				<button class="carousel-button next">&#8594;</button>
-				<ul>
-					<li class="slides[data-active]">
-						<div class="tip-text">
-							Plan for the Weather: A tropical climate comes with high humidity and frequent rainfall, so pack
-							lightweight, breathable clothing, along with rain gear and mosquito repellent.
-							<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+			<div class="carousel-container">
+				<!--<button class="carousel-button prev">&#8592;</button>-->
+				<!--<button class="carousel-button next">&#8594;</button>-->
+				<ul class="slider">
+					<li>
+						<p class="tip-text" id="#slide-1">Plan for the Weather: A tropical climate comes with high humidity and frequent rainfall, so pack
+							lightweight, breathable clothing, along with rain gear and mosquito repellent.<!--ChatGPT: top 6 tips for travelers to sydney, australia--></p>
 					</li>
-					<li class="slides">
-						<div class="tip-text">
+					<li>
+						<p class="tip-text" id="#slide-2">
 							Respect the Local Culture: Be mindful of cultural sensitivities, especially when
 							visiting Aboriginal sites or engaging with Indigenous
 							communities.<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+						</p>
 					</li>
-					<li class="slides">
-						<div class="tip-text">
+					<li>
+						<p class="tip-text" id="#slide-3">
 							Try the Local Cuisine: Australia boasts a diverse culinary scene, with influences from around the
 							world and a thriving food culture.<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+						</>
 					</li>
-					<li class="slides">
-						<div class="tip-text">
+					<li>
+						<p class="tip-text" id="#slide-4">
 							Use Public Transport: Sydney has an extensive public transportation network, including trains,
 							buses,
 							ferries, and light rail, making it easy to navigate the city and its surrounding
 							areas.<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+						</p>
 					</li>
-					<li class="slides">
-						<div class="tip-text">
+					<li>
+						<p class="tip-text" id="#slide-5">
 							Protect Yourself from the Sun: Australia experiences strong UV rays, so wear sunscreen with a high
 							SPF, a
 							wide-brimmed hat, sunglasses, and lightweight, long-sleeved clothing when spending time
 							outdoors.<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+						</p>
 					</li>
-					<li class="slides">
-						<div class="tip-text">
+					<li>
+						<p class="tip-text" id="#slide-6">
 							Stay Hydrated: The tropical climate can be deceptively hot and humid, leading to dehydration and
 							heat-related illnesses.<!--ChatGPT: top 6 tips for travelers to sydney, australia-->
-						</div>
+						</p>
 					</li>
 				</ul>
 			</div>
 		</section>
-		<section>
+		<section id="culture">
 			<h2 class="heading-2">Aboriginal Culture</h2>
 			<!--embedd video about aboriginals-->
 			<p class="description">The Aboriginal peoples of Australia, believed to have inhabited the continent for over
